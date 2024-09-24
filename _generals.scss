@@ -7,7 +7,10 @@
   font-size: 4rem;
   margin-bottom: 3rem;
 }
-.tertiary.heading {
+.tertiary-heading {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
 }
 
 .container {
@@ -29,7 +32,8 @@
 .bg-btm1,
 .bg-btm2,
 .bg-top1,
-.bg-top2 {
+.bg-top2,
+.bg-foot {
   width: 100%;
   height: 20rem;
   background-size: cover;
@@ -51,7 +55,9 @@
 .bg-btm2 {
   background-image: url("/images/bg-section-bottom-desktop-2.svg");
 }
-
 .bg {
   background-color: var(--verypaleblue);
+}
+.bg-foot {
+  background-image: url("/images/bg-footer-top-desktop.svg");
 }

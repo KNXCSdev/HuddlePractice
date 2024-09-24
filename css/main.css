@@ -74,6 +74,77 @@
   text-align: center;
 }
 
+.footer {
+  background-color: var(--verydarkcyan);
+  padding: 9.6rem 0;
+  color: white;
+}
+.footer-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30rem;
+}
+.footer-logo {
+  margin-bottom: 3rem;
+}
+.footer-left {
+  flex: 1;
+}
+.footer-left img {
+  filter: brightness(0) invert(1);
+}
+.footer-description {
+  line-height: 1.6;
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+  width: 48%;
+}
+.footer-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.footer-list-item {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1.4rem;
+}
+.footer-right {
+  flex: 1;
+}
+.footer-cta {
+  display: flex;
+  gap: 5rem;
+}
+.footer-cta-text {
+  display: inline-block;
+  padding: 1.2rem 1.2rem;
+  width: 60%;
+  border-radius: 5px;
+  border: none;
+}
+.footer-cta-btn {
+  display: inline-block;
+  width: 30%;
+  border-radius: 5px;
+  background-color: var(--pink);
+  border: none;
+  color: inherit;
+}
+.footer-social {
+  margin-top: 8rem;
+  display: flex;
+  gap: 3rem;
+}
+
+.icon {
+  height: 4rem;
+  width: 4rem;
+}
+
 .primary-heading {
   font-size: 6.4rem;
   text-align: center;
@@ -82,6 +153,12 @@
 
 .secondary-heading {
   font-size: 4rem;
+  margin-bottom: 3rem;
+}
+
+.tertiary-heading {
+  font-size: 3rem;
+  text-transform: uppercase;
   margin-bottom: 3rem;
 }
 
@@ -105,7 +182,8 @@
 .bg-btm1,
 .bg-btm2,
 .bg-top1,
-.bg-top2 {
+.bg-top2,
+.bg-foot {
   width: 100%;
   height: 20rem;
   background-size: cover;
@@ -131,6 +209,10 @@
 
 .bg {
   background-color: var(--verypaleblue);
+}
+
+.bg-foot {
+  background-image: url("/images/bg-footer-top-desktop.svg");
 }
 
 :root {
