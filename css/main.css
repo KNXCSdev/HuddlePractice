@@ -69,6 +69,11 @@
   width: 100%;
 }
 
+.section-ready {
+  padding: 9.6rem 0;
+  text-align: center;
+}
+
 .primary-heading {
   font-size: 6.4rem;
   text-align: center;
@@ -86,14 +91,15 @@
 }
 
 .btn {
-  padding: 2rem 4rem;
-  width: 20%;
+  padding: 3rem 4rem;
+  width: 28%;
   border: none;
   background-color: var(--pink);
   border-radius: 100px;
   color: white;
   font-weight: 600;
   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.185);
+  font-size: 2rem;
 }
 
 .bg-btm1,
