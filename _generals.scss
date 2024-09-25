@@ -61,3 +61,117 @@
 .bg-foot {
   background-image: url("/images/bg-footer-top-desktop.svg");
 }
+
+@media only screen and (max-width: 58em) {
+  .container {
+    max-width: 90rem;
+  }
+  .hero-description {
+    width: 75%;
+  }
+  .btn {
+    width: 75%;
+  }
+  .promo-block {
+    gap: 10rem;
+
+    &-description {
+      width: 80%;
+    }
+  }
+  .footer {
+    &-block {
+      gap: 20rem;
+    }
+
+    &-description {
+      width: 75%;
+    }
+  }
+}
+
+@media only screen and (max-width: 54em) {
+  html {
+    font-size: 50% !important;
+  }
+}
+@media only screen and (max-width: 38em) {
+  html {
+    font-size: 50% !important;
+  }
+  span {
+    font-size: 8rem !important;
+  }
+  .footer-block {
+    gap: 5rem;
+  }
+}
+
+@media only screen and (max-width: 28em) {
+  .container {
+    max-width: 45rem;
+  }
+  .nav img {
+    width: 80%;
+  }
+  .nav-btn {
+    padding: 0 !important;
+    width: 50%;
+    height: 4rem;
+  }
+  .primary-heading {
+    font-size: 5rem;
+  }
+  .hero-stats {
+    flex-direction: column;
+    gap: 10rem;
+    &-communities {
+      text-align: center;
+    }
+
+    &-messages {
+      text-align: center;
+    }
+  }
+  .promo-block {
+    flex-direction: column;
+
+    &-right {
+      order: 1;
+    }
+    &-left {
+      order: 2;
+      text-align: center;
+      width: 100%;
+    }
+    &-description {
+      width: 100%;
+    }
+  }
+  .footer {
+    &-block {
+      flex-direction: column;
+      gap: 10rem;
+    }
+
+    &-left {
+      order: 2;
+    }
+
+    &-description {
+      width: 100%;
+    }
+
+    &-cta {
+      flex-direction: column;
+      gap: 2rem;
+      &-text {
+        width: 75%;
+      }
+      &-btn {
+        width: 75%;
+        padding: 1.2rem 1.2rem;
+      }
+    }
+  }
+}
